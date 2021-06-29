@@ -31,7 +31,7 @@ function DeckCreate() {
 				</ol>
 			</nav>
 			<h1>Create Deck</h1>
-			<DeckForm onCancel={cancel} onSumbit={submitHandler} />
+			<DeckForm onCancel={cancel} onSubmit={submitHandler} />
 		</>
 	);
 }
