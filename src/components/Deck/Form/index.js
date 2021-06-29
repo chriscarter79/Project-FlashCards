@@ -46,7 +46,7 @@ function DeckForm({
 							rows="4"
 							value={deck.description}
 							required={true}
-							placeholder="Bried description of the deck"
+							placeholder="Brief description of the deck"
 							onChange={changeHandler}
 						/>
 					</div>

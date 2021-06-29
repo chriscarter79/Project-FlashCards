@@ -1,9 +1,9 @@
-import { createDeck, createCard, listDecks } from "../../utils/api";
+import { createDeck, createCard, listDecks } from "../../../utils/api";
 
 const data = [
 	{
 		id: 1,
-		name: "Rendering in React",
+		name: "Mock Rendering in React",
 		description:
 			"React's component structure allows for quickly building a complex web application that relies on DOM manipulation. ",
 		cards: [

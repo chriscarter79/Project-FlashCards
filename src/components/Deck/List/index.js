@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { deleteDeck, listDecks } from "../../../utils/api";
 
-import AddExamples from "./AddExamples";
-
 function DeckList() {
 	const [decks, setDecks] = useState([]);
 
@@ -29,7 +27,7 @@ function DeckList() {
 		>
 			<div className="d-flex w-100 justify-content-between">
 				<h5 className="mb-1>">{deck.name}</h5>
-				<small>{deck.cards.length}</small>
+				<small>{deck.cards.length} cards</small>
 			</div>
 			<p className="mb-1">{deck.description}</p>
 			<Link
@@ -51,7 +49,7 @@ function DeckList() {
 			<button
 				className="btn btn-danger float-right"
 				title="Delete deck"
-				onClick={deleteHandler(deck.id)}
+				onClick={() => deleteHandler(deck.id)}
 			>
 				<span className="oi oi-trash" />
 			</button>
@@ -61,11 +59,9 @@ function DeckList() {
 	return (
 		<>
 			<Link to="/decks/new" className="btn btn-secondary">
-				<span className="oi oi-plus" />
-				Create Deck
+				<span className="oi oi-plus" /> Create Deck
 			</Link>
 			<ul className="list-group mt-2 deck-list">{list}</ul>
-			{!decks.length && <AddExamples setDecks={setDecks} />}
 		</>
 	);
 }

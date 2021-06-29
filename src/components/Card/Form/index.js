@@ -61,7 +61,7 @@ function CardForm({
 				>
 					{doneButtonLabel}
 				</button>
-				<button type="submit" classNam="btn btn-primary" tabIndex="3">
+				<button type="submit" className="btn btn-primary" tabIndex="3">
 					Save
 				</button>
 			</fieldset>
