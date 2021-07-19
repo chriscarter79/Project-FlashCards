@@ -20,8 +20,8 @@ The project utilizes the following:
 
 ## Application Preview
 
-![Application Home](src/img/Project_FalshCards_App_Home_Screen.png)
+![Application Home](src/img/Project_FlashCards_App_Home_Screen.png)
 
-![Edit Deck](src/img/Project_FalshCards_App_Deck_Edit_Screen.png)
+![Edit Deck](src/img/Project_FlashCards_App_Deck_Edit_Screen.png)
 
-![Edit Card](src/img/Project_FalshCards_App_Card_Edit_Screen.png)
+![Edit Card](src/img/Project_FlashCards_App_Card_Edit_Screen.png)
